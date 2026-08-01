@@ -39,6 +39,13 @@ body {
     border: 5px solid black;
     margin: 10px 25px 0px 25px;
 }
+.pokeContainer{
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+.pokeContainer:hover{
+    transform: scale(1.25);
+}
 
 
 @media(width<500px){
